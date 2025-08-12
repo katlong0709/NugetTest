@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://c75bithdnw7ch"]
+
+[ext_resource type="Script" uid="uid://obtsvjudbld4" path="res://node_2d.gd" id="1_wtcfe"]
+[ext_resource type="Script" uid="uid://8wnvu05486t" path="res://CSharpScript.cs" id="2_0e48y"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_wtcfe")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "hello world"
+
+[node name="CSharpScript" type="Node" parent="."]
+script = ExtResource("2_0e48y")
