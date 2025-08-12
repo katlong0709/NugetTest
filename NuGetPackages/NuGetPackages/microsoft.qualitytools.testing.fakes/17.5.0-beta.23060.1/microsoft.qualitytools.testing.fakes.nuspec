@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.QualityTools.Testing.Fakes</id>
+    <version>17.5.0-beta.23060.1</version>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">License.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>Icon.png</icon>
+    <projectUrl>http://aka.ms/MicrosoftFakes</projectUrl>
+    <description>Provides framework APIs and Attributes for Microsoft Fakes. To generate Fakes code, one needs a VS Enterise install.
+      Additional details can be found at http://aka.ms/MicrosoftFakes.</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>Microsoft VisualStudio UnitTest UnitTesting Test Testing Fake Moles UnitTestIsolation Isolation Mock Stub Shim</tags>
+    <serviceable>true</serviceable>
+    <repository type="git" url="http://aka.ms/MicrosoftFakes" commit="2321fd4af2951c73243ce41c15733b17f292174f" />
+    <dependencies>
+      <group targetFramework=".NETFramework3.5" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Reflection.Emit" version="4.7.0" />
+        <dependency id="System.Security.Permissions" version="6.0.0" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="**/*" buildAction="None" copyToOutput="true" />
+    </contentFiles>
+  </metadata>
+</package>
